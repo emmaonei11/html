@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html>
+<!-- Add a head element to embed metadata in your website: -->
 <head>
-<title>Page Title</title>
+  <title>My First HTML</title>
+  <meta charset="UTF-8">
 </head>
 <body>
 
+<!-- Alter your website's background: -->
+<body style="background-color:powderblue;">
+
 <h1>This is the Title </h1>
+<h2>This is the subheading </h2>
+<!--This is how you make comments! Like a hash in python/R (insert: <!--{Comment text}--> - i.e. ! to start and arrow to end). Comments are not displayed in the browser-->
+<!--For different heading sizes you can keep going e.g. <h3>, <h4>, etc. -->
+
+<!-- A Title attribute is what appears when you hover over certain text -->
+<h2 title="I'm a header">The title Attribute</h2>
+
 <p>This is a paragraph.</p>
+<p>This is a second paragraph that will appear below the first (with a gap).</p>
+<p style="color:blue;">This text will be blue</p>
+<p style="font-size:50px;">This text will be big</p>
+<p style="font-family:Times New Roman;text-align:center;">This text will be fancy and in the middle</p>
+<p><i>This text is italic.</i></p>
+<!--Use <b> or <strong> for bold, <i> or <em> for italic, <small> to make it smaller, <mark to highlight> -->
+<!-- <del> to strikethrough, <ins> to underline, and <sub> and <sup> for subscripting and superscripting respectively -->
+<p>To mark a quote use: <q>This text is in quotation marks</q>.<p>
+<!--For bigger quotes you can use on it's own: <blockquote cite:"{https://www.quoteswebsite.com">"your big quote embedded"</blockquote>
+
+<!-- html text vocab: -->
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<!-- creates: -->
+<!--Written by John Doe. -->
+<!--Visit us at: -->
+<!--Example.com -->
+<!--Box 564, Disneyland -->
+<!--USA -->
+
+<!--To add a link you use <a> and href - notice how this follows the same syntax as a title attribute above -->
+<a href="https://yourwebsite.com">This is a link</a>
+
+<!--To add an image use <img -->
+<img src="picname.jpg" alt="image description - highlighted when hovering over image" width="104" height="142">
+
+<!--To add a button use <button -->
+<button>Click me</button>
+
+<!--To add a list -->
+<!--Unordered: -->
+<ul>
+  <li>Star</li>
+  <li>Cube</li>
+</ul>  
+<!--Ordered: -->
+<ol>
+  <li>Star</li>
+  <li>cube</li>
+<ol>
+
+<!-- To add lines -->
+<!-- horizontal -->
+<hr>
 
 </body>
 </html>
